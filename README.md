@@ -28,4 +28,4 @@ If you open vscode and select file, open folder you can open your unzipped proje
 To add your own scrape function:
 
 - create it within the `src/getScrapes.js` file.
-- import it within the `src/index.js` where it says `import {...} from './getScrapes.js` add within the curley braces
+- import it within the `src/index.js` where it says `import {...} from './getScrapes.js` add the name of the function within the curley braces
