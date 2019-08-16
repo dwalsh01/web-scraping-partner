@@ -25,7 +25,12 @@ If you open vscode and select file, open folder you can open your unzipped proje
 
 ## Usage
 
-To add your own scrape function:
+### To add your own scrape function:
 
 - create it within the `src/getScrapes.js` file.
 - import it within the `src/index.js` where it says `import {...} from './getScrapes.js` add the name of the function within the curley braces
+
+### Run function
+
+- run `yarn start` within the root folder of the project 
+- you should see updates in the terminal regarding writing to file(s)
